@@ -15,8 +15,8 @@ import cookielib
 import uuid
 from multiprocessing.pool import ThreadPool
 from requests.exceptions import ConnectionError
-__author__ = 'Mr-Robot'
-__copyright = 'All rights reserved . Copyright  Mr-Robot'
+__author__ = 'Mr-IJAXO'
+__copyright = 'All rights reserved . Copyright  Mr-IJAXO'
 os.system('termux-setup-storage')
 
 try:
@@ -52,22 +52,22 @@ Y='\033[1;93m'
 #Dev:IJAXO_HACKER
 #### LOGO ####
 logo = """                          
-\033[1;94m  ___   _____  _     _  _     _  ___    ___   
-\033[1;91m(  _ \(  _  )( )   ( )( )   ( )(  _ \ (  _ \ 
-\033[1;92m | (_(_) (_) | \ \_/ /  \ \_/ / | (_(_)| | ) |
-\033[1;93m  \__ \(  _  )   \ /      \ /   |  _)_ | | | )
-\033[1;95m ( )_) | | | |   | |      | |   | (_( )| |_) |
-\033[1;97m  \(___)_) (_)   (_)      (_)   (____/ (____/ 
-\033[1;94m  (_)                                         
-\033[1;96m
-\033[1;94m  _______ _____  _   _ _____  ___    _     _ _____ 
-\033[1;92m (_____  )  _  )( ) ( )  _  )|  _ \ ( )   ( )  _  )
-\033[1;93m      / /| (_) || |/ /| (_) || (_) ) \ \_/ /| (_) |
-\033[1;95m    / /  (  _  )|   ( (  _  )|    /    \ /  (  _  )
-\033[1;94m  / / ___| | | || |\ \| | | || |\ \    | |  | | | |
-\033[1;96m (_______)_) (_)( ) (_)_) (_)(_) (_)   (_)  (_) (_)
-\033[1;97m                /(                                 
-\033[1;94m               (__)                                                                            
+\033[1;94m__________________ _______           _______    
+\033[1;91m\__   __/\__    _/(  ___  )|\     /|(  ___  )
+\033[1;92m   ) (      )  (  | (   ) |( \   / )| (   ) |
+\033[1;93m   | |      |  |  | (___) | \ (_) / | |   | |
+\033[1;95m   | |      |  |  |  ___  |  ) _ (  | |   | |
+\033[1;97m   | |      |  |  |  ___  |  ) _ (  | |   | | 
+\033[1;94m___) (___|\_)  )  | )   ( |( /   \ )| (___) |                                         
+\033[1;96m\_______/(____/   |/     \||/     \|(_______)
+\033[1;94m          _______  _______  _        _______  _______  
+\033[1;92m|\     /|(  ___  )(  ____ \| \    /\(  ____ \(  ____ )
+\033[1;93m| )   ( || (   ) || (    \/|  \  / /| (    \/| (    )|
+\033[1;95m| (___) || (___) || |      |  (_/ / | (__    | (____)|
+\033[1;94m|  ___  ||  ___  || |      |   _ (  |  __)   |     __)
+\033[1;96m| (   ) || (   ) || |      |  ( \ \ | (      | (\ (   
+\033[1;97m| )   ( || )   ( || (____/\|  /  \ \| (____/\| ) \ \__                                 
+\033[1;94m|/     \||/     \|(_______/|_/    \/(_______/|/   \__/                                                                            
 """
 
 def reg():
@@ -99,7 +99,7 @@ def reg():
         print ' \033[1;92mCopy the id and send to admin'
         print ' \033[1;92mYour id: ' + to
         raw_input('\033[1;93m Press enter to send id')
-        os.system('xdg-open https://wa.me/+923472860857')
+        os.system('xdg-open https://wa.me/+923355146742')
         reg()
 
 
@@ -112,7 +112,7 @@ def reg2():
     print ' Your id: ' + id
     print ''
     raw_input(' Press enter to go to Whatsapp ')
-    os.system('xdg-open https://wa.me/+923472860857')
+    os.system('xdg-open https://wa.me/+923355146742')
     sav = open('/sdcard/.hst.txt', 'w')
     sav.write(id)
     sav.close()
@@ -160,7 +160,7 @@ def log_menu():
 	print 47 * '-'
         print '\033[1;92m[1] Login with FaceBook'
         print '\033[1;92m[2] Login with token'
-        print '\033[1;92m[3] Follow Mr-Robot On Fb'
+        print '\033[1;92m[3] Follow Mr-IJAXO On Fb'
         print ''
         log_menu_s()
 
@@ -173,7 +173,7 @@ def log_menu_s():
     elif s == '2':
         log_token()
     elif s == '3':
-        os.system('xdg-open https://facebook.com/sayyed.302/')
+        os.system('xdg-open https://facebook.com/Afridi404/')
     else:
         print ''
         print '\\ Select valid option '
